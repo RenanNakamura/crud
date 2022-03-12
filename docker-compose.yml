@@ -1,0 +1,29 @@
+version: '3'
+services:
+  crud-api:
+    image: renannakamura1992/crud-api:release
+    container_name: crud-api
+    restart: always
+    ports:
+      - "8080:8080"
+    networks:
+      - crud
+    depends_on:
+      - mysqldb
+  mysqldb:
+    image: mysql:5.7.24
+    container_name: mysqldb
+    restart: always
+    ports:
+      - "3307:3306"
+    networks:
+      - crud
+    volumes:
+      - $HOME/gazin-db:/var/lib/mysql
+    environment:
+      MYSQL_USER: root
+      MYSQL_PASSWORD: senha1
+      MYSQL_ROOT_PASSWORD: senha1
+networks:
+  crud:
+    driver: bridge
