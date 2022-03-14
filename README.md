@@ -25,7 +25,7 @@ docker-compose up -d
 
 ## Acessando a documentação do swagger
 
-Para acessar a documentação da api, acessar pelo browser o caminho. No swagger contém somente as api de comando, ficou faltando
+Para acessar a documentação da api, acessar pelo browser o caminho abaixo. No swagger contém somente as api de comando, ficou faltando
 as api de querys. Caso prefira testar pelo postman, segue os arquivos para cadastro de desenvolvedores e níveis,
 respectivamente:
 
