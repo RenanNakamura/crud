@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "f16d5dbb-ab1e-4595-91f3-6d347c118402",
+		"name": "desenvolvedor",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8080/api/v1/desenvolvedor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nivel\": \"e1f1d229-cdb7-4a5a-bc52-0fc5da19c738\",\r\n    \"nome\": \"Renan Junji Nakamura\",\r\n    \"sexo\": \"MASCULINO\",\r\n    \"dataNascimento\": \"1992-05-04\",\r\n    \"hobby\": \"fazer nada...\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/api/v1/desenvolvedor",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"desenvolvedor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8080/api/v1/desenvolvedor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/api/v1/desenvolvedor",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"desenvolvedor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8080/api/v1/desenvolvedor/{id}",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nivel\": \"cc789213-303c-4c6c-b1b2-403c1d5a2662\",\r\n    \"nome\": \"Renan Nakamura\",\r\n    \"sexo\": \"MASCULINO\",\r\n    \"dataNascimento\": \"2000-05-04\",\r\n    \"hobby\": \"Coçar...\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/api/v1/desenvolvedor/778837d3-eb69-497f-a3af-f5370f850128",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"desenvolvedor",
+						"778837d3-eb69-497f-a3af-f5370f850128"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8080/api/v1/desenvolvedor/{id}",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/api/v1/desenvolvedor/2e445758-ac12-4081-b4bb-c1f13b49a307",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"desenvolvedor",
+						"2e445758-ac12-4081-b4bb-c1f13b49a307"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
