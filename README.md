@@ -17,7 +17,7 @@ Pré-requisitos:
 
 ## Executando aplicação via docker-compose
 
-Para que fique mais simples, a imagem do projeto foi publicado no dockerHub. Execute o seguinte comando para executar:
+Para que fique mais fácil, a imagem do projeto foi publicado no dockerHub. Execute o seguinte comando:
 
 ```bash
 docker-compose up -d
